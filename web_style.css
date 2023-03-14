@@ -196,6 +196,7 @@ button:hover{
     background: #101010;
     width:100%;
     padding:100px 0px;
+    text-align:center;
 }
 
 .title h2{
@@ -280,6 +281,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align:center;
 }
 
 footer p:nth-child(1){
@@ -327,3 +329,71 @@ footer p:nth-child(2){
     font-size:14px;
 }
 
+@media(max-width:420px){
+    .name{font-size: 1.5rem;}
+    nav ul li a{font-size: 0.9rem;}
+    .btn{width: 2rem;}
+    .me{
+        margin:6rem auto;
+    }
+    
+    h1{
+        color:grey;
+        margin:20px 0px 20px;
+        font-size: 2.2rem;
+    }
+    
+    h3{
+        color: grey;
+        font-size: 1.2rem;
+        margin-bottom:50px;
+    }
+    
+    h4{
+        color: blueviolet;
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+    
+    .letter form{
+        width: 300px;
+        max-width: 100%;
+        position: relative;
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+    }
+    .foto{
+        width:90%;
+    }
+    .foto img{
+        width:100%;
+    }
+    .about-text h2{
+        font-size: 2.5rem;
+    }
+    .about-text h5{
+        font-size: 1.5rem;
+    }
+    .title h2{
+        color: white;
+        font-size: 3rem;
+        width:370px;
+        margin:1.5em auto;
+        text-align: center;
+    }
+    .card{
+        height: 350px;
+        width:280px;
+        padding: 1rem 2rem;
+    }
+    .box{
+        display:flex;
+        flex-direction: column;
+        min-height: 400px;
+    }
+    footer{
+        height:300px;
+    }
+}
